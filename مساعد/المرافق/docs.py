@@ -10,7 +10,7 @@ from pyrogram.types import (
     InlineQueryResultArticle, InputTextMessageContent,
     InlineKeyboardMarkup, InlineKeyboardButton)
 
-intro = "**📚 UserGe Docs**\n\n"
+intro = "**📚 Docs**\n\n"
 
 USERGE_THUMB = "https://imgur.com/download/Inyeb1S"
 USER_THUMB = "https://i.imgur.com/h6ZyB71.png"
@@ -70,11 +70,11 @@ USERGE = [
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("👥 Community", url="https://t.me/UserGeOt")
+                    InlineKeyboardButton("👥 Community", url="https://t.me/NNn1ny")
                 ],
                 [
-                    InlineKeyboardButton("🗂 GitHub", url="https://github.com/UserGeTeam/UserGe"),
-                    InlineKeyboardButton("📂 Docs", url=f"{userge_wiki}")
+                    InlineKeyboardButton("🗂 GitHub", url="https://github.com/Gaoc3"),
+                    InlineKeyboardButton("📂 Docs", url="https://github.com/Gaoc3")
                 ]
             ]
         ),
@@ -89,7 +89,7 @@ USERGE = [
         reply_markup=InlineKeyboardMarkup([[
             InlineKeyboardButton(
                 "🗂 Source Code",
-                url="https://github.com/UserGeTeam/UserGe-Assistant"
+                url="https://github.com/Gaoc3"
             ),
             InlineKeyboardButton(
                 "😎 Use Inline!",
@@ -108,7 +108,7 @@ USERGE = [
         ),
         reply_markup=InlineKeyboardMarkup([[
             InlineKeyboardButton(
-                "Online Docs 📚", url=f"{userge_wiki}#quick-links"
+                "Online Docs 📚", url="t.me//NNn1ny"#quick-links"
             )
         ]]),
         description="See Contents available in UserGe wiki.",
@@ -123,7 +123,7 @@ USERGE = [
         ),
         reply_markup=InlineKeyboardMarkup([[
             InlineKeyboardButton(
-                "Github 🗂", url=f"{userge_wiki}"
+                "Github 🗂", url=f"https://github.com/Gaoc3"
             )
         ]]),
         description="All UserGe-Repositories.",
@@ -132,14 +132,14 @@ USERGE = [
     InlineQueryResultArticle(
         title="Groups and Channels",
         input_message_content=InputTextMessageContent(
-            "📚 **UserGe Docs**\n\n"
+            "📚 ** Docs**\n\n"
             "`Join Our Updates Channel and Support Group.`",
             disable_web_page_preview=True,
         ),
         reply_markup=InlineKeyboardMarkup([[
             InlineKeyboardButton(
                 "Groups and Channels 👥",
-                url=f"{userge_wiki}"
+                url="NNn1ny"
             )
         ]]),
         description="Join UserGe support Group and Updates Channel.",
