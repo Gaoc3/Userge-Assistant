@@ -37,14 +37,14 @@ faqs = "https://theuserge.github.io/faq.html"
 errors = "https://theuserge.github.io/errors.html"
 
 HELP = (
-    "🤖 **UserGe Assistant**\n\n"
+    "🤖 **Assistant**\n\n"
 
 
     "You can use this bot in inline mode to search for UserGe Docs and FAQs"
-    f" and All Methods available in [UserGe Docs]({userge_wiki}).\n\n"
+    f" and All Methods available in [Docs](t.me//NNN1Ny).\n\n"
 
     "**__Search__**\n"
-    "`@UsergeBot <query>`\n\n"
+    "`@Bot <query>`\n\n"
 
     "**__List of Queries__**\n"
     "`Decorators`\n"
