@@ -1,9 +1,7 @@
-# Copyright (C) 2020 by UsergeTeam@Github, < https://github.com/UsergeTeam >.
-#
-# This file is part of < https://github.com/UsergeTeam/Userge-Assistant > project,
+
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/Userge-Assistant/blob/master/LICENSE >
-#
+
+#hhh1
 # All rights reserved.
 
 __all__ = ["Config"]
@@ -28,10 +26,7 @@ class Config:
     if os.environ.get("WHITELIST_CHATS"):
         WHITELIST_CHATS.update(map(int, os.environ.get("WHITELIST_CHATS").split()))
     DEV_USERS = (
-        1158855661,  # @Krishna_Singhal
-        1110621941,  # @PhycoNinja13b
-        921420874,   # @juznem
-        837784353    # @rking_32
+        5077253813 #mohtam
     )
     ADMINS = {}
     MAX_MSG_LENGTH = 4096
